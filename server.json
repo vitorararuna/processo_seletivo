@@ -1,0 +1,282 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 5
+    },
+    {
+      "id": 7,
+      "amount": 4
+    },
+    {
+      "id": 8,
+      "amount": 2
+    },
+    {
+      "id": 9,
+      "amount": 3
+    },
+    {
+      "id": 10,
+      "amount": 8
+    },
+    {
+      "id": 11,
+      "amount": 6
+    },
+    {
+      "id": 12,
+      "amount": 4
+    },
+    {
+      "id": 13,
+      "amount": 3
+    },
+    {
+      "id": 14,
+      "amount": 4
+    },
+    {
+      "id": 15,
+      "amount": 8
+    },
+    {
+      "id": 16,
+      "amount": 10
+    },
+    {
+      "id": 17,
+      "amount": 12
+    },
+    {
+      "id": 18,
+      "amount": 4
+    },
+    {
+      "id": 19,
+      "amount": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Camisa Juventus",
+      "ligue": "italia",
+      "price": 219.99,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-juventus-home-1920-sn-torcedor-adidas-masculina/06/COL-4659-006/COL-4659-006_zoom1.jpg?ts=1588953188&",
+        "https://static.netshoes.com.br/produtos/camisa-juventus-home-1920-sn-torcedor-adidas-masculina/06/COL-4659-006/COL-4659-006_zoom2.jpg?ts=1588953188&"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Camisa Milan",
+      "ligue": "italia",
+      "price": 139.9,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-milan-pre-jogo-2021-puma-masculina/02/NWG-0789-002/NWG-0789-002_zoom1.jpg?ts=1585042639&",
+        "https://static.netshoes.com.br/produtos/camisa-milan-pre-jogo-2021-puma-masculina/02/NWG-0789-002/NWG-0789-002_zoom2.jpg?ts=1585042639&"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Camisa Inter de Milão",
+      "ligue": "italia",
+      "price": 219.9,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-inter-de-milao-third-1920-sn-torcedor-nike-masculina/12/HZM-2684-012/HZM-2684-012_zoom1.jpg?ts=1573215728&",
+        "https://static.netshoes.com.br/produtos/camisa-inter-de-milao-third-1920-sn-torcedor-nike-masculina/12/HZM-2684-012/HZM-2684-012_zoom2.jpg?ts=1573215728&"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Camisa Borussia Dortmund",
+      "ligue": "alemanha",
+      "price": 219.9,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-borussia-dortmund-home-1920-sn-torcedor-puma-masculina/74/D14-9652-274/D14-9652-274_zoom1.jpg?ts=1587480231&",
+        "https://static.netshoes.com.br/produtos/camisa-borussia-dortmund-home-1920-sn-torcedor-puma-masculina/74/D14-9652-274/D14-9652-274_zoom2.jpg?ts=1587480231&"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Camisa Bayern de Munique",
+      "ligue": "alemanha",
+      "price": 219.9,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-bayern-de-munique-home-2021-sn-torcedor-adidas-masculina/56/NQQ-4343-056/NQQ-4343-056_zoom1.jpg?ts=1592921293&",
+        "https://static.netshoes.com.br/produtos/camisa-bayern-de-munique-home-2021-sn-torcedor-adidas-masculina/56/NQQ-4343-056/NQQ-4343-056_zoom2.jpg?ts=1592921293&"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Camisa Atlético de Madrid",
+      "ligue": "espanha",
+      "price": 255,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-atletico-de-madrid-third-1920-sn-torcedor-nike-masculina/56/HZM-2679-056/HZM-2679-056_zoom1.jpg?ts=1571244166&",
+        "https://static.netshoes.com.br/produtos/camisa-atletico-de-madrid-third-1920-sn-torcedor-nike-masculina/56/HZM-2679-056/HZM-2679-056_zoom2.jpg?ts=1571244166&"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Camisa Real Madrid",
+      "ligue": "espanha",
+      "price": 270,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-real-madrid-home-1920-sn-torcedor-adidas-masculina/14/COL-4524-014/COL-4524-014_zoom1.jpg?ts=1587473204&",
+        "https://static.netshoes.com.br/produtos/camisa-real-madrid-home-1920-sn-torcedor-adidas-masculina/14/COL-4524-014/COL-4524-014_zoom2.jpg?ts=1587473204&"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Camisa Barcelona",
+      "ligue": "espanha",
+      "price": 270,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-barcelona-third-1920-sn-torcedor-nike-masculina/12/HZM-2690-012/HZM-2690-012_zoom1.jpg?ts=1574885158&",
+        "https://static.netshoes.com.br/produtos/camisa-barcelona-third-1920-sn-torcedor-nike-masculina/12/HZM-2690-012/HZM-2690-012_zoom2.jpg?ts=1574885158&"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Camisa Arsenal",
+      "ligue": "inglaterra",
+      "price": 250,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-arsenal-away-1920-torcedor-sn-adidas-masculina/30/COL-7442-030/COL-7442-030_zoom1.jpg?ts=1565094028&",
+        "https://static.netshoes.com.br/produtos/camisa-arsenal-away-1920-torcedor-sn-adidas-masculina/30/COL-7442-030/COL-7442-030_zoom2.jpg?ts=1565094028&"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Camisa Manchester City",
+      "ligue": "inglaterra",
+      "price": 250,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-manchester-city-home-1920-sn-torcedor-puma/77/D14-8380-977/D14-8380-977_zoom1.jpg?ts=1565119814&",
+        "https://static.netshoes.com.br/produtos/camisa-manchester-city-home-1920-sn-torcedor-puma/77/D14-8380-977/D14-8380-977_zoom2.jpg?ts=1565119814&"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Camisa Manchester United",
+      "ligue": "inglaterra",
+      "price": 250,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-manchester-unitedhome-1920-sn-torcedor-adidas-masculina/16/COL-4665-016/COL-4665-016_zoom1.jpg?ts=1587473687&",
+        "https://static.netshoes.com.br/produtos/camisa-manchester-unitedhome-1920-sn-torcedor-adidas-masculina/16/COL-4665-016/COL-4665-016_zoom2.jpg?ts=1587473687&"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Camisa Liverpool",
+      "ligue": "inglaterra",
+      "price": 250,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-liverpool-retro-1984-masculino/16/AJM-0331-016/AJM-0331-016_zoom1.jpg?ts=1589554387&",
+        "https://static.netshoes.com.br/produtos/camisa-liverpool-retro-1984-masculino/16/AJM-0331-016/AJM-0331-016_zoom3.jpg?ts=1589554387&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-liverpool-retro-1984-masculino/16/AJM-0331-016/AJM-0331-016_zoom3.jpg?ts=1589554387&?ims=1088x"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Camisa Santos",
+      "ligue": "brasil",
+      "price": 245,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-santos-i-2021-sn-torcedor-umbro-masculina/44/D21-6218-044/D21-6218-044_zoom1.jpg?ts=1591023858&",
+        "https://static.netshoes.com.br/produtos/camisa-santos-i-2021-sn-torcedor-umbro-masculina/44/D21-6218-044/D21-6218-044_zoom2.jpg?ts=1591023858&"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Camisa Corinthians",
+      "ligue": "brasil",
+      "price": 245,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-corinthians-i-2021-sn-estadio-nike-masculina/28/HZM-3769-028/HZM-3769-028_zoom1.jpg?ts=1595346768&",
+        "https://static.netshoes.com.br/produtos/camisa-corinthians-i-2021-sn-estadio-nike-masculina/28/HZM-3769-028/HZM-3769-028_zoom2.jpg?ts=1595346768&"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Camisa Flamengo",
+      "ligue": "brasil",
+      "price": 249.99,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2021-sn-torcedor-adidas-masculina/02/NQQ-1178-002/NQQ-1178-002_zoom1.jpg?ts=1584470712&",
+        "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2021-sn-torcedor-adidas-masculina/02/NQQ-1178-002/NQQ-1178-002_zoom2.jpg?ts=1584470712&"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Camisa Vasco",
+      "ligue": "brasil",
+      "price": 224.99,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-vasco-ii-2021-sn-torcedor-kappa-masculina/28/D24-2436-028/D24-2436-028_zoom1.jpg?",
+        "https://static.netshoes.com.br/produtos/camisa-vasco-ii-2021-sn-torcedor-kappa-masculina/28/D24-2436-028/D24-2436-028_zoom2.jpg?"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Camisa São Paulo",
+      "ligue": "brasil",
+      "price": 230,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-sao-paulo-i-2021-sn-torcedor-adidas-masculina/24/NQQ-3204-024/NQQ-3204-024_zoom1.jpg?ts=1592940861&",
+        "https://static.netshoes.com.br/produtos/camisa-sao-paulo-i-2021-sn-torcedor-adidas-masculina/24/NQQ-3204-024/NQQ-3204-024_zoom2.jpg?ts=1592940861&"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Camisa Palmeiras",
+      "ligue": "brasil",
+      "price": 230,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-palmeiras-iii-1920-sn-torcedor-puma-masculina/18/D14-8520-218/D14-8520-218_zoom1.jpg?ts=1594634148&",
+        "https://static.netshoes.com.br/produtos/camisa-palmeiras-iii-1920-sn-torcedor-puma-masculina/18/D14-8520-218/D14-8520-218_zoom2.jpg?ts=1594634148&"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Camisa Atlético Mineiro",
+      "ligue": "brasil",
+      "price": 230,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-atletico-mineiro-i-1920-sn-torcedor-le-coq-masculina/28/LKP-0002-028/LKP-0002-028_zoom1.jpg?ts=1569243297&",
+        "https://static.netshoes.com.br/produtos/camisa-atletico-mineiro-i-1920-sn-torcedor-le-coq-masculina/28/LKP-0002-028/LKP-0002-028_zoom2.jpg?ts=1569243297&"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Camisa Paris Saint-Germain ",
+      "ligue": "franca",
+      "price": 249.99,
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-paris-saint-germain-home-2021-sn-torcedor-nike-masculina/36/HZM-3772-036/HZM-3772-036_zoom1.jpg?ts=1594142814&",
+        "https://static.netshoes.com.br/produtos/camisa-paris-saint-germain-home-2021-sn-torcedor-nike-masculina/36/HZM-3772-036/HZM-3772-036_zoom2.jpg?ts=1594142814&"
+      ]
+    }
+  ]
+}
