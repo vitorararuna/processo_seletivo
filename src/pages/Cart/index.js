@@ -13,14 +13,16 @@ export default function Cart() {
 
   const total = useSelector(state =>
     formatPrice(state.cart.reduce((totalSum, product) => {
-      return totalSum + product.price * product.amount;
+
+      return totalSum + (product.promotion || product.price) * product.amount;
+      
     }, 0)));
 
 
   const cart = useSelector(state =>
     state.cart.map(product => ({
       ...product,
-      subtotal: formatPrice(product.price * product.amount),
+      subtotal: formatPrice((product.promotion ? product.promotion * product.amount : product.price * product.amount) ),
     })))
 
   const dispatch = useDispatch();
@@ -57,7 +59,7 @@ export default function Cart() {
               </td>
               <td>{/* coluna */}
                 <strong>{product.title}</strong>
-                <span>{product.priceFormatted}</span>
+                <span>{product.promoFormatted ? product.promoFormatted : product.priceFormatted}</span>
               </td>
               <td>{/* coluna */}
                 <div>

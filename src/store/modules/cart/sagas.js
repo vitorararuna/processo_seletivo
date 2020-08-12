@@ -35,11 +35,11 @@ function* addToCart({ id }) { //essa função vai ter a responsabilidade por ace
     const data = {
       ...response.data,
       amount: 1,
-      priceFormatted: formatPrice(response.data.price),
+      priceFormatted: formatPrice(response.data.promotion ? response.data.promotion : response.data.price),
     }
 
     yield put(addToCartSuccess(data));
-    
+
     history.push('/cart');
   }
 
@@ -53,7 +53,7 @@ function* updateAmount({ id, amount }) {
   const stock = yield call(api.get, `stock/${id}`);
   const stockAmount = stock.data.amount;
 
-  if(amount > stockAmount){
+  if (amount > stockAmount) {
     toast.error('Quantidade Solicitada Fora De Estoque');
     return;
   }

@@ -5,6 +5,38 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
+  #id{
+    display: grid;  /*Nossos produtos vão ficar em formato de grid */
+    grid-template-columns: repeat(4, 1fr); /* 4 espaçamentos (colunas) de grid com largura igual */
+    grid-gap: 13px; /*Distanciar os produtos em 20px */
+    list-style: none; /*Tirar as bolinhas */
+    margin-top: 30px;
+    flex: 1 0; 
+    align-self: center;
+  }
+
+  @media(max-width: 749px) {
+     #id{
+      grid-template-columns: repeat(1, 1fr);
+      /* grid-gap: 15px; */
+      margin: 15px auto;
+     } 
+  }
+    @media (min-width: 750px) and (max-width: 1023px)  {
+     #id{
+      grid-template-columns: repeat(2, 1fr);
+      /* grid-gap: 15px; */
+      margin: 15px auto;
+     } 
+  }
+    @media (min-width: 1023px) and (max-width: 1282px)  {
+     #id{
+      grid-template-columns: repeat(3, 1fr);
+      /* grid-gap: 15px; */
+      margin: 15px auto;
+     } 
+  }
 `
 
 export const ProductList = styled.ul`

@@ -30,11 +30,11 @@ export const Cart = styled(Link)` /* Para eu estilizar um componente que não é
     margin-right: 10px;
     strong{
       display: block; /* ver qq o display box faz */
-      color: #242724;
+      color: #fff;
     }
     span{
       font-size: 12px;
-      color:#242724;
+      color:#fff;
     }
   }
 `;

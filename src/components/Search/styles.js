@@ -37,6 +37,7 @@ export const Row_ = styled(Row)`
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    display: 1 0;
 
     
 
@@ -53,7 +54,7 @@ export const Row_ = styled(Row)`
 export const Col_ = styled(Col)`
   
   select{
-    background-color: #ffffff00;
+    background-color: #ffffff;
     margin: 3px;
     padding: 6px;
     font-size: 15px;
@@ -61,7 +62,7 @@ export const Col_ = styled(Col)`
   }
 
   option{
-    background-color: #86a98d;
+    background-color: #ffffff;
     border-radius: 25px;
   }
 
@@ -69,28 +70,29 @@ export const Col_ = styled(Col)`
 
 export const Button_ = styled(Button)`
   
-  margin: 2px 5px 5px 15px;
-  padding: 3px;
+  margin: 4px 5px 5px 15px;
+  padding: 0px;
   border: 1px solid black;
   border-radius: 15px;
   background-color: #ffffff00;
 
   #success{
-    background-color: #ffffff00;
     padding:5px;
     border-radius: 22px;
+    background-color: #fff;
   }
   #success:hover{
-    background-color: #28a745d4;
+    background: ${darken(0.09, '#28a745d4')};
+
   }
 
   #danger{
-    background-color: #ffffff00;
     padding:5px;
     border-radius: 22px;
+    background-color: #fff;
   }
   #danger:hover{
-    background-color: #dc3545c7;
+    background: ${darken(0.09, '#dc3545c6')};
   }
 
 

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import background2 from '../assets/images/backgroundFut.png';
+import background2 from '../assets/images/backgroundFut2.png';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default createGlobalStyle`
@@ -12,7 +12,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    background: #126b1e21 url(${background2}) repeat center top;
+    background: #2c2c2c url(${background2}) repeat center top;
     -webkit-font-smoothing: antialiased;
   }
   body, input, button {
