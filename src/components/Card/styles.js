@@ -133,8 +133,8 @@ export const Container = styled.section`
 
     .card .contentBx .size h3 {
        color: #fff !important;
-       font-weight: 300;
-       font-size: 14px;
+       font-weight: 700;
+      font-size: 15px;
        text-transform: uppercase;
        letter-spacing: 2px !important;
        margin-right:10px;
@@ -213,35 +213,3 @@ export const Container = styled.section`
         }
 
 `;
-
-{/* <ProductList>
-        {products.map(product => (
-          <li key={product.id}>
-            <div id="img">
-              <img
-                src={product.images[0]}
-                alt={product.title}
-                onMouseOver={(e) => (e.target.src = product.images[1])}
-                onMouseLeave={(e) => (e.target.src = product.images[0])}
-              />
-            </div>
-            <strong>{product.title}</strong>
-
-            {product.promotion ?
-              <span>{product.priceFormatted}</span>
-              :
-              <span>{product.priceFormatted}</span>
-            }
-            <button
-              type="button"
-              onClick={() => handleAddProduct(product.id)}
-            >
-              <div>
-                <MdAddShoppingCart size={16} color="#FFF" /> {amount[product.id] || 0}
-              </div>
-              <span>ADICIONAR AO CARRINHO</span>
-            </button>
-          </li>
-
-        ))}
-      </ProductList > */}

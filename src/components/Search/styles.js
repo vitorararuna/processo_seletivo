@@ -14,13 +14,13 @@ export const Container = styled.section`
   
 `;
 
-export const Card_ = styled(Card)`
+export const Cardd = styled(Card)`
   background-color: #dcc0b0;
   
   
 `;
 
-export const Form_ = styled(Form)`
+export const Formm = styled(Form)`
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -33,7 +33,7 @@ export const Form_ = styled(Form)`
     
 `;
 
-export const Row_ = styled(Row)`
+export const Roww = styled(Row)`
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -51,7 +51,7 @@ export const Row_ = styled(Row)`
       }
 `;
 
-export const Col_ = styled(Col)`
+export const Coll = styled(Col)`
   
   select{
     background-color: #ffffff;
@@ -68,7 +68,7 @@ export const Col_ = styled(Col)`
 
 `;
 
-export const Button_ = styled(Button)`
+export const Buttonn = styled(Button)`
   
   margin: 4px 5px 5px 15px;
   padding: 0px;

@@ -35,7 +35,7 @@ function* addToCart({ id }) { //essa função vai ter a responsabilidade por ace
     const data = {
       ...response.data,
       amount: 1,
-      priceFormatted: formatPrice(response.data.promotion ? response.data.promotion : response.data.price),
+      priceFormatted: formatPrice(response.data.price),
     }
 
     yield put(addToCartSuccess(data));

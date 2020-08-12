@@ -14,7 +14,7 @@ export default function Cart() {
   const total = useSelector(state =>
     formatPrice(state.cart.reduce((totalSum, product) => {
 
-      return totalSum + (product.promotion || product.price) * product.amount;
+      return totalSum + product.price * product.amount;
       
     }, 0)));
 
@@ -22,7 +22,7 @@ export default function Cart() {
   const cart = useSelector(state =>
     state.cart.map(product => ({
       ...product,
-      subtotal: formatPrice((product.promotion ? product.promotion * product.amount : product.price * product.amount) ),
+      subtotal: formatPrice(product.price * product.amount),
     })))
 
   const dispatch = useDispatch();
@@ -53,22 +53,22 @@ export default function Cart() {
             <tr> {/* Linha */}
               <td> {/* coluna */}
                 <img
-                  src={product.images[0]}
+                  src={product.image}
                   alt={product.title}
                 />
               </td>
               <td>{/* coluna */}
                 <strong>{product.title}</strong>
-                <span>{product.promoFormatted ? product.promoFormatted : product.priceFormatted}</span>
+                <span>{product.priceFormatted}</span>
               </td>
               <td>{/* coluna */}
                 <div>
                   <button type="button" onClick={() => decrement(product)}>
-                    <MdRemoveCircleOutline size={20} color="#7159c1" />
+                    <MdRemoveCircleOutline size={20} color="#007000" />
                   </button>
                   <input type="number" readOnly value={product.amount} />
                   <button type="button" onClick={() => increment(product)}>
-                    <MdAddCircleOutline size={20} color="#7159c1" />
+                    <MdAddCircleOutline size={20} color="#007000" />
                   </button>
                 </div>
               </td>
@@ -80,7 +80,7 @@ export default function Cart() {
                   type="button"
                   onClick={() => dispatch(CartActions.removeFromCart(product.id))}
                 >
-                  <MdDelete size={20} color="#7159c1" />
+                  <MdDelete size={20} color="#007000" />
                 </button>
               </td>
 
